@@ -9,3 +9,18 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using auto-import.
+#.idea/compiler.xml
+#.idea/jarRepositories.xml
+#.idea/misc.xml
+#.idea/uiDesigner.xml
+
+.idea/workspace.xml
+
+# Put your downloaded web drivers regarding to version of your browser
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
